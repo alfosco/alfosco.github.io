@@ -1,0 +1,15 @@
+header{
+    border-radius: 25px;
+    border: 2px solid red;
+    padding: 20px; 
+    width: 960px;
+    height: 150px;
+    color: red;
+    background: white;
+    clear: left;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
