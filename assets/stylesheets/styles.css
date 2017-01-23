@@ -8,7 +8,7 @@ header{
     border: 2px solid black;
     padding: 20px;
     margin: 4px;
-    height: 75px;
+    height: 65px;
     color: white;
     background: black;
 }
@@ -34,6 +34,7 @@ nav{
 Main navigation buttons
 =======================
 */
+
 .button {
     background-color: white;
     border: none;
@@ -105,6 +106,17 @@ Main navigation buttons
     background-color: purple;
     color: white;
 }
+
+.button6 {
+    background-color: lightgray;
+    color: black;
+    border: 2px solid white;
+}
+
+.button6:hover {
+    background-color: black;
+    color: white;
+}
 /*
 =======================
 Footer
@@ -144,24 +156,7 @@ Lower navigation buttons
 }
 /*
 =======================
-group
-=======================
-*/
-.group:before,
-.group:after {
-  content: "";
-  display: table;
-}
-.group:after {
-  clear: both;
-}
-.group {
-  clear: both;
-  *zoom: 1;
-}
-/*
-=======================
-section img
+div img
 =======================
 */
 .me_img {
@@ -169,22 +164,23 @@ section img
   border-radius: 15%;
 }
 
-section{
-  float: left;
-  margin: 4px;
-  max-width: 900px;
-  width: 63%;
-}
 /*
 =======================
-aside text
+home text
 =======================
 */
-aside{
+.home_txt{
   float: right;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 14px;
   color: black;
   margin: 4px;
-  width: 30%;
+  padding: 4px;
+}
+
+h2{
+  float: right;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 24px;
+  color: black;  
 }
